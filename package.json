@@ -1,0 +1,27 @@
+{
+  "name": "mvisnjic.github.io",
+  "version": "1.0.0",
+  "description": "Koristit ću HTML/CSS, i JS za izradu mog web page-a.\r Naknadno sam odlucio koristiti Tailwindcss.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind.source.css -o public/build/tailwind.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvisnjic/mvisnjic.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvisnjic/mvisnjic.github.io/issues"
+  },
+  "homepage": "https://github.com/mvisnjic/mvisnjic.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.17"
+  }
+}
