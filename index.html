@@ -13,13 +13,13 @@
     <title>Matej Višnjić | Osobna web stranica</title>
 </head>
 
-<body class="bg-black ml-auto mr-auto"> 
-    <div class="">
+<body class="ml-auto mr-auto bg-background-body"> 
+    <div class="mx-24 mt-4 sm:text-center md:text-center">
         <ul class="flex">
-            <li class="ml-24 mr-auto text-4xl mt-2 text-white"><a class="inline-block hover:text-gray-700 cursor-pointer p-2 font-alfa" href="index.html">Matej Višnjić</a></li>
+            <li class="text-4xl text-black"><a class=" hover:text-gray-400 cursor-pointer font-alfa" href="index.html">Matej Višnjić</a></li>
         </ul>
     </div>
-    <div class="rounded-xl bg-white box-border w-3/4 mx-auto my-24 content-center">
+    <div class="rounded-xl bg-gray-400 box-border w-3/4 mx-auto my-24 content-center opacity-90">
             <div class="text-center" > 
                 <div class="pt-0.5">
                 <img src="/static/autoportret.PNG" alt="autoportret" class="rounded-full mt-6 ml-auto mr-auto max-h-44 min-h-28">
@@ -33,8 +33,7 @@
                 </p>
                 <br>
                 <ul class="">
-                    <button class="bg-black hover:bg-gray-500 text-white font-bold py-2 px-2 rounded text-center my-16">
-                        <a class="inline-block font-bold hover:bg-gray-500 hover:text-white cursor-pointer p-2" href="kontakt.html" target="_blank">Contact me</a></button>
+                    <button class="bg-black hover:bg-gray-500 text-white font-bold py-2 px-2 rounded text-center my-16" onclick="alert('U izradi...Uskoro!')">Contact me</a></button>
                 </ul>
                 </div>
             </div>
@@ -42,11 +41,13 @@
 
 </body>
 <footer>
-    <div class="bg-black text-white inset-x-0 md:absolute sticky bottom-0 z-50 ">
-        <ul class="flex">
-            <span class="inline-block font-bold hover:text-white p-2">Pronađite me na: </span>
-            <li class="ml-2"><a class="inline-block font-bold hover:text-gray-700 cursor-pointer p-2" href="https://www.facebook.com/matej.visnjic" target="_blank">Facebook</a></li>
-            <li class="mr-auto"><a class="inline-block font-bold  hover:text-gray-700 cursor-pointer p-2" href="https://www.linkedin.com/in/matej-vi%C5%A1nji%C4%87-51b273213/" target="_blank">LinkedIn</a></li>
+    <div class="bg-gray-400 text-white inset-x-0 flex bottom-0 lg:fixed">
+        <ul class="md: flex">
+            <span class="inline-block font-bold p-3 inset-y-0 text-black">Find me on: </span>
+            <li class="ml-2"><a class="inline-block cursor-pointer p-3" href="https://www.facebook.com/matej.visnjic" target="_blank"><img class="w-5 h-5" src="./static/face-icon.png" alt="facebook"></a></li>
+            <li class="ml-4"><a class="inline-block cursor-pointer p-3" href="https://www.linkedin.com/in/matej-vi%C5%A1nji%C4%87-51b273213/" target="_blank"><img class="w-5 h-5" src="./static/linked-icon.png" alt="linkedin"></a></li>
+            <li class="ml-4"><a class="inline-block cursor-pointer p-3" href="https://twitter.com/MatejVisnjic" target="_blank"><img class="w-5 h-5" src="./static/twitter-icon.png" alt="twitter"></a></li>
+            <li class="ml-4"><a class="inline-block cursor-pointer p-3" href="https://github.com/mvisnjic" target="_blank"><img class="w-5 h-5" src="./static/github-icon.png" alt="github"></a></li>
         </ul>
     </div>
 </footer>
