@@ -10,14 +10,38 @@
     <link rel="stylesheet" href="/public/build/tailwind.css">
     <!-- ikone !-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Matej Višnjić | Osobna web stranica</title>
 </head>
 
-<body class="ml-auto mr-auto sm: bg-background-body"> 
-    <div class="mx-24 mt-4 sm: text-center">
+<body class="sm: bg-background-body"> 
+    <div class="mx-24 mt-6 sm: text-center">
         <ul class="flex">
             <li class="text-4xl text-black"><a class=" hover:text-gray-400 cursor-pointer font-alfa" href="index.html">Matej Višnjić</a></li>
         </ul>
+    </div>
+    <div class="hidden bg-gray-400 rounded-xl relative w-2/5 mx-auto border p-5 shadow-lg font-notosans text-center">
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="fname" name="fname" class="mb-4"><br>
+
+            <label for="surname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" class="mb-4"><br>
+
+            <label for="email">Your e-mail address:</label><br>
+            <input type="email" id="email-input" name="email-input" class="mb-4"><br>
+
+            <label for="title">Title:</label><br>
+            <input type="title" id="title" name="title" class="mb-4"><br>
+
+            <label for="Text">Text:</label><br>
+            <textarea name="text-input" id="text-input" cols="30" rows="10"></textarea><br>
+            
+            <button id="send-btn" class="bg-black hover:bg-gray-500 text-white py-2 px-2 rounded text-center my-4">Send</a></button>
+        </div>    
+    </div>
     </div>
     <div class="rounded-xl bg-gray-400 box-border w-3/4 mx-auto my-24 content-center opacity-90">
             <div class="text-center" > 
@@ -27,23 +51,22 @@
                 <div class="mt-6">
                 <h1 class="text-3xl font-alfa">About me</h1>
                 <br>
-                <p class="text-l font2xl">I am informatics student from Croatia. I'm studying at Sveučilište Jurja Dobrile in Pula. Currently I'm at third year.
+                <p class="text-l font2xl font-notosans">I am informatics student from Croatia. I'm studying at Sveučilište Jurja Dobrile in Pula. Currently I'm at third year.
                     <br>I like a lot programming in a different programming languages. Some of them are: C++, C#, MySQL, HTML, CSS, JavaScript etc.
                     <br>Every day I'm learning something new, and I try to improve my skills even more.
                 </p>
                 <br>
-                <ul class="">
-                    <button class="bg-black hover:bg-gray-500 text-white font-bold py-2 px-2 rounded text-center my-16" onclick="alert('U izradi...Uskoro!')">Contact me</a></button>
-                </ul>
+                    <button id="contact-btn" class="bg-black hover:bg-gray-500 text-white font-notosans py-2 px-2 rounded text-center my-16" onclick="alert('U izradi...Uskoro!')">Contact me</a></button>
                 </div>
             </div>
     </div>
-
+    <div class="fixed hidden inset-0 bg-white bg-opacity-50 overflow-y-auto h-full w-full" id="blur-efect"></div>
+    
 </body>
 <footer>
     <div class="bg-gray-400 text-white inset-x-0 flex bottom-0 lg:fixed">
         <ul class="md: flex">
-            <span class="inline-block font-bold p-3 inset-y-0 text-black">Find me on: </span>
+            <span class="inline-block font-bold p-3 inset-y-0 text-black font-notosans">Find me on: </span>
             <li class="ml-2"><a class="inline-block cursor-pointer p-3" href="https://www.facebook.com/matej.visnjic" target="_blank"><img class="w-5 h-5" src="./static/face-icon.png" alt="facebook"></a></li>
             <li class="ml-4"><a class="inline-block cursor-pointer p-3" href="https://www.linkedin.com/in/matej-vi%C5%A1nji%C4%87-51b273213/" target="_blank"><img class="w-5 h-5" src="./static/linked-icon.png" alt="linkedin"></a></li>
             <li class="ml-4"><a class="inline-block cursor-pointer p-3" href="https://twitter.com/MatejVisnjic" target="_blank"><img class="w-5 h-5" src="./static/twitter-icon.png" alt="twitter"></a></li>

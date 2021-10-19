@@ -22364,6 +22364,10 @@ video {
   font-family: 'Alfa Slab One' , 'cursive';
 }
 
+.font-notosans {
+  font-family: 'Noto Sans Mono', monospace;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -53612,6 +53616,10 @@ video {
     font-family: 'Alfa Slab One' , 'cursive';
   }
 
+  .sm\:font-notosans {
+    font-family: 'Noto Sans Mono', monospace;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -84846,6 +84854,10 @@ video {
 
   .md\:font-alfa {
     font-family: 'Alfa Slab One' , 'cursive';
+  }
+
+  .md\:font-notosans {
+    font-family: 'Noto Sans Mono', monospace;
   }
 
   .md\:text-xs {
@@ -116084,6 +116096,10 @@ video {
     font-family: 'Alfa Slab One' , 'cursive';
   }
 
+  .lg\:font-notosans {
+    font-family: 'Noto Sans Mono', monospace;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -147320,6 +147336,10 @@ video {
     font-family: 'Alfa Slab One' , 'cursive';
   }
 
+  .xl\:font-notosans {
+    font-family: 'Noto Sans Mono', monospace;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -178554,6 +178574,10 @@ video {
 
   .\32xl\:font-alfa {
     font-family: 'Alfa Slab One' , 'cursive';
+  }
+
+  .\32xl\:font-notosans {
+    font-family: 'Noto Sans Mono', monospace;
   }
 
   .\32xl\:text-xs {
