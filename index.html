@@ -22,26 +22,7 @@
             <li class="text-4xl text-black"><a class=" hover:text-gray-400 cursor-pointer font-alfa" href="index.html">Matej Višnjić</a></li>
         </ul>
     </div>
-    <div class="hidden bg-gray-400 rounded-xl relative w-2/5 mx-auto border p-5 shadow-lg font-notosans text-center">
-        <div>
-            <label for="name">Name:</label><br>
-            <input type="text" id="fname" name="fname" class="mb-4"><br>
 
-            <label for="surname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" class="mb-4"><br>
-
-            <label for="email">Your e-mail address:</label><br>
-            <input type="email" id="email-input" name="email-input" class="mb-4"><br>
-
-            <label for="title">Title:</label><br>
-            <input type="title" id="title" name="title" class="mb-4"><br>
-
-            <label for="Text">Text:</label><br>
-            <textarea name="text-input" id="text-input" cols="30" rows="10"></textarea><br>
-            
-            <button id="send-btn" class="bg-black hover:bg-gray-500 text-white py-2 px-2 rounded text-center my-4">Send</a></button>
-        </div>    
-    </div>
     </div>
     <div class="rounded-xl bg-gray-400 box-border w-3/4 mx-auto my-24 content-center opacity-90">
             <div class="text-center" > 
@@ -51,17 +32,48 @@
                 <div class="mt-6">
                 <h1 class="text-3xl font-alfa">About me</h1>
                 <br>
-                <p class="text-l font2xl font-notosans">I am informatics student from Croatia. I'm studying at Sveučilište Jurja Dobrile in Pula. Currently I'm at third year.
+                <p class="text-l font2xl font-notosans">
+                    I am informatics student from Croatia. I'm studying at Sveučilište Jurja Dobrile in Pula. Currently I'm at third year.
                     <br>I like a lot programming in a different programming languages. Some of them are: C++, C#, MySQL, HTML, CSS, JavaScript etc.
                     <br>Every day I'm learning something new, and I try to improve my skills even more.
                 </p>
                 <br>
-                    <button id="contact-btn" class="bg-black hover:bg-gray-500 text-white font-notosans py-2 px-2 rounded text-center my-16" onclick="alert('U izradi...Uskoro!')">Contact me</a></button>
+                    <button id="contactBtn" class="bg-black hover:bg-gray-500 text-white font-notosans py-2 px-2 rounded text-center my-16">Contact me</a></button>
                 </div>
             </div>
     </div>
-    <div class="fixed hidden inset-0 bg-white bg-opacity-50 overflow-y-auto h-full w-full" id="blur-efect"></div>
-    
+    <div class="fixed hidden inset-0 bg-white bg-opacity-40 overflow-y-auto h-full w-full" id="modal">
+        <div class="bg-gray-400 bg-opacity-95 rounded-xl relative lg:w-2/5 mx-auto my-36 content-center border p-5 shadow-lg font-sans" id="contact-form">
+            <div class="float-right">
+                <svg height="32" width="50" id="closeX">
+                    <line x1="2" y1="2" x2="30" y2="30" style="stroke:black; stroke-width:5" />
+                    <line x1="30" y1="2" x2="2" y2="30" style="stroke:black; stroke-width:5" />
+                </svg>
+            </div>
+            <div class="mt-6 mb-4">
+                <label for="name/lastname" class="font-notosans">Full Name:</label><br>
+                <input type="text" id="fname/lname" name="fname/lname" placeholder="Full name..." class="rounded-xl w-3/5 ml-px px-2"><br>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="font-notosans">Your e-mail address:</label><br>
+                <input type="email" id="email-input" name="email-input" placeholder="E-mail address..." class="rounded-xl w-3/5 px-2"><br>
+            </div>
+            <div class="mb-4">
+                <label for="title" class="font-notosans">Subject:</label><br>
+                <input type="title" id="title" name="title" placeholder="Subject..." class="rounded-xl w-3/5 px-2"><br>
+            </div>
+            <div class="">
+                <label for="Text" class="font-notosans">Text:</label><br>
+                <textarea name="text-input" id="text-input" cols="45" rows="11" placeholder="Text..." class="md: w-3/4 rounded-xl resize-none px-2"></textarea><br>
+            </div>  
+            <div class="flex justify-center font-notosans">
+                <button id="sendBtn" class="bg-black hover:bg-gray-700 text-white rounded text-center px-28 py-3 my-4">Send</a></button>
+            </div> 
+
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
 </body>
 <footer>
     <div class="bg-gray-400 text-white inset-x-0 flex bottom-0 lg:fixed">
