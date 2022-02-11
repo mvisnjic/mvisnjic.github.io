@@ -16,6 +16,10 @@ document
         alert(
           "Uspješno poslan email!\nOdgovoriti ću Vam što brže je moguće.\nHvala :)"
         );
+        document.getElementById("email").value = "";
+        document.getElementById("fullname").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
       },
       (error) => {
         console.log("Greška!", error);
