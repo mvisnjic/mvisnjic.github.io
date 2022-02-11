@@ -7,10 +7,6 @@ btnContact.onclick = function () {
   modal.style.display = "block";
 };
 
-btnSend.onclick = function () {
-  alert("U izradi...Uskoro!");
-};
-
 btnX.onclick = function () {
   modal.style.display = "none";
 };
