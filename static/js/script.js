@@ -1,4 +1,4 @@
-let modal = document.getElementById("modal");
+let modal = document.getElementById("Modal");
 let btnContact = document.getElementById("contactBtn");
 let btnSend = document.getElementById("sendBtn");
 let btnX = document.getElementById("closeX");
