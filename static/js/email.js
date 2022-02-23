@@ -8,14 +8,12 @@ document
     event.preventDefault();
     const serviceID = "service_yd0nwab";
     const templateID = "template_gwncmd2";
-    document.getElementById("email").value = "";
-    document.getElementById("fullname").value = "";
-    document.getElementById("subject").value = "";
-    document.getElementById("message").value = "";
+    // document.getElementById("email").value = "";
+    // document.getElementById("fullname").value = "";
+    // document.getElementById("subject").value = "";
+    // document.getElementById("message").value = "";
     document.getElementById("Modal").style.display = "none";
     document.getElementById("contactBtn").disabled = true;
-    // document.getElementById("contactFormWindow").hidden = true;
-
     emailjs.sendForm(serviceID, templateID, this).then(
       (response) => {
         console.log("Success!", response.status, response.text);

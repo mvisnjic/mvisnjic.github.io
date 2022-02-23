@@ -35,7 +35,7 @@
                     class="rounded-full mt-6 ml-auto mr-auto max-h-44 min-h-28">
             </div>
             <!--div for about me-->
-            <div class="mt-6 mx-48">
+            <div class="mt-6 mx-20">
                 <h1 class="text-3xl font-alfa my-4">About me</h1>
                 <p class="text-left font-notosans">
                     I am informatics student from Croatia. I'm studying at Sveučilište Jurja Dobrile in Pula. Currently 
@@ -60,32 +60,32 @@
         <div
             class="bg-gray-400 bg-opacity-95 rounded-xl relative lg:w-2/5 mx-auto my-16 content-center border p-5 shadow-lg font-sans" id="contactFormWindow">
             <!--the 'x' for go back-->
-            <div class="float-right my-2">
-                <svg height="32" width="50" id="closeX">
-                    <line x1="2" y1="2" x2="30" y2="30" style="stroke:black; stroke-width:5" />
-                    <line x1="30" y1="2" x2="2" y2="30" style="stroke:black; stroke-width:5" />
+            <div class="float-right">
+                <svg height="24" width="40" id="closeX">
+                    <line x1="2" y1="2" x2="20" y2="20" style="stroke:black; stroke-width:5" />
+                    <line x1="20" y1="2" x2="2" y2="20" style="stroke:black; stroke-width:5" />
                 </svg>
             </div>
             <!--form element, and textboxes-->
-            <form id="contactForm" class="text-center">
-                <div class="mt-6 mb-4">
+            <form id="contactForm" class="text-center font-bold font-notosans">
+                <div class="mb-4">
                     <br>
-                    <label for="fullname" class="font-notosans">Full Name</label><br>
+                    <label for="fullname" class="text-left">Full Name</label><br>
                     <input type="text" id="fullname" name="fullname" placeholder="Full name..." required
                         class="rounded-xl w-3/4 ml-px px-2 mt-1"><br>
                 </div>
                 <div class="mb-4">
-                    <label for="email" class="font-notosans">Your e-mail address</label><br>
+                    <label for="email">Your e-mail address</label><br>
                     <input type="email" id="email" name="email" placeholder="E-mail address..." required
                         class="rounded-xl w-3/4 px-2 mt-1"><br>
                 </div>
                 <div class="mb-4">
-                    <label for="subject" class="font-notosans">Subject</label><br>
+                    <label for="subject">Subject</label><br>
                     <input type="subject" id="subject" name="subject" required placeholder="Subject..."
                         class="rounded-xl w-3/4 px-2 mt-1"><br>
                 </div>
                 <div class="">
-                    <label for="message" class="font-notosans">Message</label><br>
+                    <label for="message">Message</label><br>
                     <textarea name="message" id="message" required minlength="15" cols="45" rows="11"
                         placeholder="Message..." class="md: w-3/4 rounded-xl resize-none px-2 mt-1"></textarea><br>
                 </div>
