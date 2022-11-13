@@ -1,0 +1,113 @@
+
+<template>
+    <div class="bg-gradient-to-b bg-[#D4AF37] text-black opacity-60">
+        <div class="p-6 flex flex-row-reverse lg:hidden">
+            <button @click="toggleMenu">                    
+                    <svg
+                    class="open fill-current h-5 w-5 transform transition duration-1000 ease-in-out"
+                    :class="open ? 'hidden' : 'open'"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+
+            <svg
+                    class="close h-5 w-5 transform transition duration-1000 ease-in-out"
+                    :class="open ? 'close' : 'hidden'"
+                    version="1.1"
+                    viewBox="0 0 14 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                    <title />
+                    <desc />
+                    <defs />
+                    <g
+                        fill="none"
+                        fill-rule="evenodd"
+                        id="Page-1"
+                        stroke="none"
+                        stroke-width="1"
+                    >
+                        <g
+                            fill="black"
+                            id="Core"
+                            transform="translate(-341.000000, -89.000000)"
+                        >
+                            <g
+                                id="close"
+                                transform="translate(341.000000, 89.000000)"
+                            >
+                                <path
+                                    d="M14,1.4 L12.6,0 L7,5.6 L1.4,0 L0,1.4 L5.6,7 L0,12.6 L1.4,14 L7,8.4 L12.6,14 L14,12.6 L8.4,7 L14,1.4 Z"
+                                    id="Shape"
+                                />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+        </button>
+        </div>
+    </div>
+    <div :class="open ? 'close text-white flex flex-col text-center text-xl bg-gradient-to-b bg-[#D4AF37] opacity-60 h-screen' : 'hidden lg:flex'">
+            <div class="font-bold space-y-3 lg:space-y-0 text-black lg:text-3xl lg:flex lg:flex-row lg:p-12 lg:bg-gradient-to-b lg:bg-[#D4AF37] lg:opacity-60 lg:w-full lg:text-black lg:justify-evenly"
+            >
+
+                <div class="">
+                <button>
+                    <div class="font-['Bungee']">
+
+                        mvisnjic
+                    </div>
+                </button>    
+            </div>
+            <div class="lg:bg-black lg:h-9 lg:w-px lg:self-center" />
+            <div class="bg-black w-full h-px self-center lg:hidden" />
+            <div>
+                <button>
+                    About
+                </button>    
+                </div>
+                <div>
+                <button>
+                    Projects
+                </button>    
+                </div>
+                <div>
+                <button>
+                    Contact me
+                </button>    
+                </div>
+                <div>
+                <button>
+                    Find me
+                </button>    
+                </div>
+            </div>
+</div>
+</template>
+
+<script>
+export default {
+    name: 'AppHeader',
+    data() {
+        return {
+            open: false,
+        }
+    },
+    methods: {
+        async toggleMenu() {
+            this.open = !this.open;
+        }
+    },
+}
+</script>
+
+<style>
+.router-link-exact-active {
+    font-weight: bold;
+}
+</style>
