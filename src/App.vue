@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col justify-between bg-fixed bg-[url('back3.png')] bg-blend-multiply bg-gray-800">
+    <div class="flex flex-col justify-between bg-fixed bg-[url('back3.png')] bg-blend-multiply bg-gray-800 h-full">
         <AppHeader />
-        <router-view class="h-screen"/>
+        <router-view />
         <AppFooter />
     </div>
 </template>

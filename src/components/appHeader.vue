@@ -1,6 +1,6 @@
 
 <template>
-    <div class="bg-gradient-to-b bg-[#D4AF37] text-black opacity-60">
+    <div class="bg-gradient-to-b bg-[#D4AF37]">
         <div class="p-6 flex flex-row-reverse lg:hidden">
             <button @click="toggleMenu">                    
                     <svg
@@ -52,8 +52,8 @@
         </button>
         </div>
     </div>
-    <div :class="open ? 'close text-white flex flex-col text-center text-xl bg-gradient-to-b bg-[#D4AF37] opacity-60 h-screen' : 'hidden lg:flex'">
-            <div class="font-bold space-y-3 lg:space-y-0 text-black lg:text-3xl lg:flex lg:flex-row lg:p-12 lg:bg-gradient-to-b lg:bg-[#D4AF37] lg:opacity-60 lg:w-full lg:text-black lg:justify-evenly"
+    <div :class="open ? 'close text-white flex flex-col text-center text-xl bg-gradient-to-b bg-[#D4AF37] h-screen' : 'hidden lg:flex'">
+            <div class="font-bold space-y-3 lg:space-y-0 text-black lg:text-2xl lg:flex lg:flex-row lg:p-8 lg:border-b-[#D4AF37] lg:mx-32 lg:text-[#D4AF37] lg:border-b lg:opacity-75 lg:w-full lg:justify-evenly lg:items-center"
             >
 
                 <div class="">
@@ -64,8 +64,8 @@
                     </div>
                 </button>    
             </div>
-            <div class="lg:bg-black lg:h-9 lg:w-px lg:self-center" />
-            <div class="bg-black w-full h-px self-center lg:hidden" />
+            <div class="lg:bg-[#D4AF37] lg:h-16 lg:w-px lg:self-center" />
+            <div class="bg-black h-px lg:hidden mx-10" />
             <div>
                 <button>
                     About
