@@ -1,6 +1,6 @@
 
 <template>
-    <div class="bg-gradient-to-b bg-[#D4AF37]">
+    <div class="bg-gradient-to-b bg-[#D4AF37] lg:hidden">
         <div class="p-6 flex flex-row-reverse lg:hidden">
             <button @click="toggleMenu">                    
                     <svg
@@ -58,31 +58,31 @@
 
                 <div class="">
                 <button>
-                    <div class="font-['Bungee']">
+                    <a href="#" class="font-['Bungee']">
 
                         mvisnjic
-                    </div>
+                    </a>
                 </button>    
             </div>
             <div class="lg:bg-[#D4AF37] lg:h-16 lg:w-px lg:self-center" />
             <div class="bg-black h-px lg:hidden mx-10" />
             <div>
-                <button>
+                <button @click.prevent="scrollAbout">
                     About
                 </button>    
                 </div>
                 <div>
-                <button>
+                <button @click.prevent="scrollProjects">
                     Projects
                 </button>    
                 </div>
                 <div>
-                <button>
+                <button @click.prevent="scrollContact">
                     Contact me
                 </button>    
                 </div>
                 <div>
-                <button>
+                <button @click.prevent="scrollFindMe">
                     Find me
                 </button>    
                 </div>
@@ -101,7 +101,27 @@ export default {
     methods: {
         async toggleMenu() {
             this.open = !this.open;
-        }
+        },
+        scrollAbout() {
+            var about = document.getElementById("about")
+            about.scrollIntoView();
+            this.open = false;            
+        },
+        scrollProjects() {
+            var about = document.getElementById("projects")
+            about.scrollIntoView();            
+            this.open = false;
+        },
+        scrollContact() {
+            var about = document.getElementById("contact")
+            about.scrollIntoView();            
+            this.open = false;
+        },
+        scrollFindMe() {
+            var about = document.getElementById("findMe")
+            about.scrollIntoView();            
+            this.open = false;
+        },
     },
 }
 </script>
