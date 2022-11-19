@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-between bg-fixed bg-[url('back3.png')] bg-blend-multiply bg-gray-800 h-full">
+    <div class="flex flex-col justify-between bg-fixed bg-[url('/public/back3.png')] bg-blend-multiply bg-gray-800 h-full">
         <AppHeader />
         <router-view />
         <AppFooter />
