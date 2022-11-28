@@ -1,113 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--emailjs script-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <!--tab icon-->
-    <link rel="icon" href="/static/title-icon.png" type="image/x-icon">
-    <!--tailwindcss-->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/public/build/tailwind.css">
-    <!-- fonts !-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <title>under construction... | Matej Višnjić | Osobna web stranica</title>
-</head>
-
-<body class="sm: bg-background-body">
-    <div class="mx-24 mt-6 sm: text-center flex">
-    </div>
-    <!--style of div in the center of page-->
-    <div class="rounded-xl bg-gray-400  w-3/4 mx-auto my-16 opacity-90">
-        <div class="text-center">
-            <!--my picture-->
-            <div class="pt-0.5">
-            </div>
-            <!--div for about me-->
-            <div class="mt-6 mx-20">
-                <h1 class="text-3xl font-alfa my-4">under construction...</h1>
-                <p class="text-center font-notosans text-4xl">
-                    Working on new design...
-                </p>
-                <p id="timer" class="text-4xl pt-6"></p>
-                <button id="contactBtn"
-                    class="bg-black hover:bg-gray-500 text-white font-notosans py-2 px-2 rounded text-center my-16">Contact
-                    me</a></button>
-            </div>
-        </div>
-    </div>
-    <!--blur background-->
-    <div class="fixed hidden inset-0 bg-white bg-opacity-40 overflow-y-auto h-full w-full" id="Modal">
-        <!--contact form window-->
-        <div
-            class="bg-gray-400 bg-opacity-95 rounded-xl relative lg:w-2/5 mx-auto my-16 content-center border p-5 shadow-lg font-sans" id="contactFormWindow">
-            <!--the 'x' for go back-->
-            <div class="float-right">
-                <svg height="24" width="40" id="closeX">
-                    <line x1="2" y1="2" x2="20" y2="20" style="stroke:black; stroke-width:5" />
-                    <line x1="20" y1="2" x2="2" y2="20" style="stroke:black; stroke-width:5" />
-                </svg>
-            </div>
-            <!--form element, and textboxes-->
-            <form id="contactForm" class="text-center font-bold font-notosans">
-                <div class="mb-4">
-                    <br>
-                    <label for="fullname" class="text-left">Full Name</label><br>
-                    <input type="text" id="fullname" name="fullname" placeholder="Full name..." required
-                        class="rounded-xl w-3/4 ml-px px-2 mt-1"><br>
-                </div>
-                <div class="mb-4">
-                    <label for="email">Your e-mail address</label><br>
-                    <input type="email" id="email" name="email" placeholder="E-mail address..." required
-                        class="rounded-xl w-3/4 px-2 mt-1"><br>
-                </div>
-                <div class="mb-4">
-                    <label for="subject">Subject</label><br>
-                    <input type="subject" id="subject" name="subject" required placeholder="Subject..."
-                        class="rounded-xl w-3/4 px-2 mt-1"><br>
-                </div>
-                <div class="">
-                    <label for="message">Message</label><br>
-                    <textarea name="message" id="message" required minlength="15" cols="45" rows="11"
-                        placeholder="Message..." class="md: w-3/4 rounded-xl resize-none px-2 mt-1"></textarea><br>
-                </div>
-                <div class="flex justify-center font-notosans">
-                    <button id="sendBtn"
-                        class="bg-black hover:bg-gray-700 text-white rounded text-center px-32 py-3 my-4"
-                        type="submit">Send</a></button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <script src="/static/js/script.js"></script>
-    <script src="/static/js/email.js"></script>
-    <script src="/static/js/timer.js"></script>
-</body>
-<footer>
-    <!--footer and links to my social networks-->
-    <div class="bg-gray-400 text-white inset-x-0 flex bottom-0 lg:fixed">
-        <ul class="md: flex">
-            <span class="inline-block font-bold p-3 inset-y-0 text-black font-notosans">Find me on: </span>
-            <li class="ml-2"><a class="inline-block cursor-pointer p-3" href="https://www.facebook.com/matej.visnjic"
-                    target="_blank"><img class="w-5 h-5" src="./static/face-icon.png" alt="facebook"></a></li>
-            <li class="ml-4"><a class="inline-block cursor-pointer p-3"
-                    href="https://www.linkedin.com/in/matej-vi%C5%A1nji%C4%87-51b273213/" target="_blank"><img
-                        class="w-5 h-5" src="./static/linked-icon.png" alt="linkedin"></a></li>
-            <li class="ml-4"><a class="inline-block cursor-pointer p-3" href="https://twitter.com/MatejVisnjic"
-                    target="_blank"><img class="w-5 h-5" src="./static/twitter-icon.png" alt="twitter"></a></li>
-            <li class="ml-4"><a class="inline-block cursor-pointer p-3" href="https://github.com/mvisnjic"
-                    target="_blank"><img class="w-5 h-5" src="./static/github-icon.png" alt="github"></a></li>
-        </ul>
-    </div>
-</footer>
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/title-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mvisnjic | Matej Visnjic</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
