@@ -1,7 +1,12 @@
 
 <template>
     <div class="bg-gradient-to-b bg-[#D4AF37] lg:hidden">
-        <div class="p-6 flex flex-row-reverse lg:hidden">
+        <div class="p-6 flex flex-row justify-between lg:hidden">
+                <button>
+                    <a href="#" class="font-['Bungee'] text-xl">
+                        mvisnjic
+                    </a>
+                </button>    
             <button @click="toggleMenu">                    
                     <svg
                     class="open fill-current h-5 w-5 transform transition duration-1000 ease-in-out"
@@ -53,36 +58,35 @@
         </div>
     </div>
     <div :class="open ? 'close text-white flex flex-col text-center text-xl bg-gradient-to-b bg-[#D4AF37] h-screen' : 'hidden lg:flex'">
-            <div class="font-bold space-y-3 lg:space-y-0 text-black lg:text-2xl lg:flex lg:flex-row lg:p-8 lg:border-b-[#D4AF37] lg:mx-32 lg:text-[#D4AF37] lg:border-b lg:opacity-75 lg:w-full lg:justify-evenly lg:items-center"
-            >
-
-                <div class="">
+        <div class="font-bold space-y-3 lg:space-y-0 text-black lg:text-2xl lg:flex lg:flex-row lg:p-8 lg:border-b-[#D4AF37] lg:mx-52 lg:text-[#D4AF37] lg:border-b lg:opacity-75 lg:w-full lg:justify-evenly lg:items-center"
+        >
+        <div class="hidden md:block">
                 <button>
                     <a href="#" class="font-['Bungee']">
 
                         mvisnjic
                     </a>
-                </button>    
-            </div>
-            <div class="lg:bg-[#D4AF37] lg:h-16 lg:w-px lg:self-center" />
+                </button>  
+        </div>
+        <div class="lg:bg-[#D4AF37] lg:h-16 lg:w-px lg:self-center" />
             <div class="bg-black h-px lg:hidden mx-10" />
             <div>
-                <button @click.prevent="scrollAbout">
+                <button @click="scrollAbout">
                     About
                 </button>    
                 </div>
                 <div>
-                <button @click.prevent="scrollProjects">
+                <button @click="scrollProjects">
                     Projects
                 </button>    
                 </div>
                 <div>
-                <button @click.prevent="scrollContact">
+                <button @click="scrollContact">
                     Contact me
                 </button>    
                 </div>
                 <div>
-                <button @click.prevent="scrollFindMe">
+                <button @click="scrollFindMe">
                     Find me
                 </button>    
                 </div>

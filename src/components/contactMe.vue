@@ -1,6 +1,6 @@
 <template>
-        <div class="rounded-lg bg-gray-500 lg:text-lg bg-opacity-50 p-6 items-center w-full flex flex-col lg:p-12">
-                    <div class="flex flex-col items-center lg:text-xl lg:w-2/6">
+        <div class="rounded-lg bg-[#8C8C8C] bg-opacity-85 p-6 items-center w-full flex flex-col lg:p-12">
+                    <div class="flex flex-col items-center lg:text-2xl lg:w-2/6">
                         <input type="text" id="fullname" v-model="fullname" placeholder="Full name..." required minlength="5" maxlength="30"
                         class="w-full text-black text-md py-2 pl-2 mb-4 placeholder-black border-b border-[#D4AF37] bg-transparent"><br>
                         <input type="text" id="email" v-model="email" placeholder="Email..." required minlength="8" maxlength="50"

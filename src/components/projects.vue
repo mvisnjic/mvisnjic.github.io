@@ -1,6 +1,6 @@
 <template>
-        <div class="rounded-lg bg-[#D4AF37] lg:text-lg bg-opacity-40 w-[300px] gap-4 p-2 md:w-[400px] lg:w-[450px] lg:h-[350px] flex flex-col items-start lg:gap-4 lg:p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-[1.15] hover:bg-opacity-80 duration-300">
-        <p class="self-center font-bold">{{name}}</p>
+        <div class="rounded-lg bg-[#D4AF37] lg:text-xl bg-opacity-85 w-full gap-4 p-2 md:w-[400px] lg:w-[450px] lg:h-[350px] flex flex-col items-start lg:gap-4 lg:p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-[1.15] hover:bg-opacity-100 duration-300">
+        <p class="self-center font-bold text-lg lg:text-2xl">{{name}}</p>
         <div class="flex flex-row gap-4 h-1/6">
         <img src="../static/info.png" alt="" class="max-h-7"/>
         <p>{{about}}</p>
