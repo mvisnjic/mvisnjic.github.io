@@ -1,6 +1,6 @@
 <template>
-        <div class="rounded-lg bg-[#8C8C8C] bg-opacity-85 p-6 items-center w-full flex flex-col lg:p-12">
-                    <div class="flex flex-col items-center lg:text-2xl lg:w-2/6">
+        <div class="md:rounded-lg lg:rounded-lg bg-[#8C8C8C] bg-opacity-85 p-6 items-center w-full flex flex-col lg:p-12">
+                    <div class="flex flex-col items-center lg:text-2xl md:w-3/6 lg:w-4/6">
                         <input type="text" id="fullname" v-model="fullname" placeholder="Full name..." required minlength="5" maxlength="30"
                         class="w-full text-black text-md py-2 pl-2 mb-4 placeholder-black border-b border-[#D4AF37] bg-transparent"><br>
                         <input type="text" id="email" v-model="email" placeholder="Email..." required minlength="8" maxlength="50"
@@ -13,7 +13,7 @@
                                 Send
                             </button>
                     </div>
-    </div>  
+                </div>  
 </template>
 
 <script>
@@ -38,16 +38,18 @@ export default {
                 }
                 let success = await MailSender.sendMail(this.fullname, this.email, this.subject, this.message)
                 if (success) {
-                    alert("Email sent.")
+                    alert("Email sent. Thank you!")
                     this.fullname = '';
                     this.email = '';
                     this.subject = '';
                     this.message = '';
+                } else {
+                    throw new Error('The connection with the server is not successful!')
                 }
             } catch (e) {
                 this.isClicked = false;
-                alert("Email not sent. Try again!")
                 console.error(e.name + ":", e.message);
+                alert(e.name + ": Email not sent. Try again or contact me: \nvisnjicmatej@gmail.com")
             }
         }
     },

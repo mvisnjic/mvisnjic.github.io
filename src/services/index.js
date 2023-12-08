@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const mailApi = axios.create({
-    baseURL: 'https://mail.bslm.com.hr/',
+    baseURL: 'https://mail.letseait.com/',
     timeout: 10000,
 })
 
