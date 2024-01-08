@@ -34,11 +34,12 @@
         <div id="projects" class="w-full space-y-12 lg:space-y-16">
             <div class="text-4xl lg:text-7xl text-[#D4AF37]">My projects</div>
             <div class="flex lg:justify-start flex-col items-center lg:flex-row lg:flex-wrap gap-8 lg:gap-24">
-                <projects name="FIPUbot" about="Bachler's degree projects" languages="Vue" team="1" githubLink="https://github.com/mvisnjic/FIPUbot" linkName="mvisnjic/FIPUbot" appLink="http://fipubot.bslm.com.hr/"/>
-                <projects name="FIPUbot - backend" about="Bachler's degree projects" languages="Python, RaspberyPI" team="1" githubLink="https://github.com/mvisnjic/FIPUbot-backend" linkName="mvisnjic/FIPUbot" appLink="http://fipubot.bslm.com.hr/"/>
-                <projects name="eventFinder - backend" about="backend for eventFinder-frontend" languages="nodeJS" team="2" githubLink="https://github.com/mvisnjic/eventFinder-backend" linkName="mvisnjic/eventFinder-backend" appLink="https://eventfinder.bslm.com.hr/"/>
-                <projects name="eventFinder - frontend" about="App for search an events" languages="Vue" team="2" githubLink="https://github.com/mvisnjic/FIPUbot" linkName="mvisnjic/FIPUbot" appLink="https://eventfinder.bslm.com.hr/"/>
-                <projects name="orderTech" about="Web app for ordering tehnical inspection for vehicle" languages="Vue, firebase" team="2" githubLink="https://github.com/mvisnjic/orderTech" linkName="mvisnjic/orderTech" appLink="https://ordertech.bslm.com.hr/"/>
+                <projects name="FIPUbot" about="Bachler's degree projects" languages="Vue" team="1" githubLink="https://github.com/mvisnjic/FIPUbot" linkName="mvisnjic/FIPUbot" appLink="http://fipubot.letseait.com/"/>
+                <projects name="FIPUbot - backend" about="Bachler's degree projects" languages="Python, RaspberyPI" team="1" githubLink="https://github.com/mvisnjic/FIPUbot-backend" linkName="mvisnjic/FIPUbot" appLink=""/>
+                <projects name="eventFinder - backend" about="backend for eventFinder-frontend" languages="nodeJS" team="2" githubLink="https://github.com/mvisnjic/eventFinder-backend" linkName="mvisnjic/eventFinder-backend" appLink=""/>
+                <projects name="eventFinder - frontend" about="App for search an events" languages="Vue" team="2" githubLink="https://github.com/mvisnjic/FIPUbot" linkName="mvisnjic/FIPUbot" appLink="https://eventfinder.letseait.com/"/>
+                <projects name="orderTech" about="Web app for ordering tehnical inspection for vehicle" languages="Vue, firebase" team="2" githubLink="https://github.com/mvisnjic/orderTech" linkName="mvisnjic/orderTech" appLink="https://ordertech.letseait.com/"/>
+                <projects name="IoT project" about="Easy IoT project for toggle a light and get a temperature from DHT11 sensor." languages="Python, flask" team="1" githubLink="https://github.com/mvisnjic/project_iot" linkName="mvisnjic/project_iot" appLink=""/>
                 <projects name="Age and gender prediction using CNN" about="Age and gender prediction using convolutional neural network" languages="Python, tensorflow" team="1" githubLink="https://github.com/mvisnjic/age-and-gender-prediction-using-CNN" linkName="mvisnjic/age-gender-prediction" appLink=""/>
             </div>
         </div>
