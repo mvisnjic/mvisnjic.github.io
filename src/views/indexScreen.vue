@@ -19,8 +19,10 @@
                         Every day I'm learning something new, and I try to improve my skills even more. 
                         In college I encountered many programming languages and tools. 
                     </p>
-                    <p> Some of them are: C++, Vue.js, MySQL, MongoDB, Firebase, Big Data Analytics using Python, C#, Java, Javascript, Git, PHP Laravel, Tensorflow, Node.js and many others.
-                        Also , I've been learning PHP Laravel for the past few months and have made a few small projects for practice.
+                    <p> Some of them are: C++, Vue and Vite, MySQL, MongoDB, Firebase, Big Data Analytics using Python, C#, Java, Javascript, Git, PHP Laravel, Tensorflow, Node.js and many others.
+                        In my free time, I mostly use Python, IoT devices, bash scripts, cronjobs,
+                        managing webservers and REST APIs, web scraping and many other things,
+                        especially those related to the Linux operating system. I use Fedora every day,
                         In the future I want to become a backend developer who also applies IoT stuff.
                     </p>
                     <a href="/files/CV-en.pdf" download>
@@ -43,12 +45,12 @@
                 <projects name="Age and gender prediction using CNN" about="Age and gender prediction using convolutional neural network" languages="Python, tensorflow" team="1" githubLink="https://github.com/mvisnjic/age-and-gender-prediction-using-CNN" linkName="mvisnjic/age-gender-prediction" appLink=""/>
             </div>
         </div>
-        <div id="contact" class="w-full space-y-12 lg:space-y-16">
+        <!-- <div id="contact" class="w-full space-y-12 lg:space-y-16">
             <div class="text-4xl lg:text-7xl text-[#D4AF37]">Contact me</div>
             <div class="flex lg:justify-start flex-col items-center lg:flex-row lg:flex-wrap gap-9 lg:gap-18">
                 <contact />
             </div>
-        </div>
+        </div> -->
         
     </div>
 </template>

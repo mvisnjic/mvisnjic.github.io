@@ -80,11 +80,11 @@
                     Projects
                 </button>    
                 </div>
-                <div>
+                <!-- <div>
                 <button @click="scrollContact">
                     Contact me
                 </button>    
-                </div>
+                </div> -->
                 <div>
                 <button @click="scrollFindMe">
                     Find me
