@@ -1,31 +1,36 @@
 <template>
     <div class="flex flex-col items-center space-y-12 lg:space-y-32 mt-12 lg:mt-16 md:px-20 lg:px-52 mb-12 lg:mb-32">
-        <div class="text-[#D4AF37] font-['Bungee']">
+        <div class="text-[#D4AF37] font-bungee p-4">
             <div class="flex flex-row space-x-6">
                 <img src="../static/autoportret.png" alt="" class="h-40 lg:h-52 max-h-52 rounded-full">
                 <div class="flex flex-col justify-center space-y-0 lg:space-y-2">
 
                     <div class="text-3xl lg:text-7xl">Hello.</div>
-                    <div class="text-xl lg:text-3xl flex flex-col">i am matej visnjic,</div>
-                    <div class="text-md lg:text-lg">univ. bacc. inf</div>
+                    <div class="text-xl lg:text-3xl flex flex-col">i am matej visnjic</div>
                 </div>
             </div>
         </div>
         <div id="about" class="w-full space-y-12 lg:space-y-16">
-            <div class="text-4xl lg:text-7xl text-[#D4AF37]">About</div>
+            <div class="text-4xl lg:text-7xl text-[#D4AF37] font-shareTech">About</div>
             <div  class="bg-[#8C8C8C] bg-opacity-85 h-1/3 p-4 w-full md:rounded-lg lg:rounded-lg flex flex-col md:flex-row lg:text-2xl lg:items-center lg:p-6">
                 <div class="text-justify p-2 flex flex-col lg:flex-col gap-4">
-                    <p> I am informatics student from Croatia. I'm studying at Sveučilište Jurja Dobrile in Pula. From September 2022 I have a bachelor's degree. Currently I'm at fifth year. 
-                        Every day I'm learning something new, and I try to improve my skills even more. 
-                        In college I encountered many programming languages and tools. 
-                    </p>
-                    <p> Some of them are: C++, Vue and Vite, MySQL, MongoDB, Firebase, Big Data Analytics using Python, C#, Java, Javascript, Git, PHP Laravel, Tensorflow, Node.js and many others.
-                        In my free time, I mostly use Python, IoT devices, bash scripts, cronjobs,
-                        managing webservers and REST APIs, web scraping and many other things,
-                        especially those related to the Linux operating system. I use Fedora every day,
-                        In the future I want to become a backend developer who also applies IoT stuff.
-                    </p>
-                    <a href="/files/CV-en.pdf" download>
+                    <p>Currently working on my master's project and seeking full-time or freelance opportunities. I'm constantly learning and refining my skills.</p>
+                    <p>During my studies, I gained experience with various programming languages and tools, In my free time, I enjoy working with Python, AI, IoT devices, bash scripts, cronjobs, web server management, custom REST APIs, and web scraping, especially on Linux.</p>
+                    <div id="findMe" class="inline-flex space-x-3">
+                        <a target="_blank" href="https://github.com/mvisnjic">
+                            <img src="../static/github-icon.svg" alt="github" class="lg:w-10 lg:h-10">
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/matej-vi%C5%A1nji%C4%87-51b273213/">
+                            <img src="../static/linkedin-square-icon.svg" alt="linkedin" class="lg:w-10 lg:h-10">
+                        </a>
+                        <a target="_blank" href="https://twitter.com/matejvisnjic">
+                            <img src="../static/x-social-media-logo-icon.svg" alt="twitter" class="lg:w-10 lg:h-10">
+                        </a>
+                        <a target="_blank" href="https://www.facebook.com/matej.visnjic">
+                            <img src="../static/facebook-messenger-black-icon.svg" alt="facebook" class="lg:w-10 lg:h-10">
+                        </a>
+                    </div>
+                    <a href="/files/CV-en.pdf" target="_blank">
                         <p class="text-[#D4AF37] hover:underline">
                             Click here to download a CV.
                         </p>
@@ -34,23 +39,11 @@
             </div>
         </div>
         <div id="projects" class="w-full space-y-12 lg:space-y-16">
-            <div class="text-4xl lg:text-7xl text-[#D4AF37]">My projects</div>
+            <div class="text-4xl lg:text-7xl text-[#D4AF37] font-shareTech">My projects</div>
             <div class="flex lg:justify-start flex-col items-center lg:flex-row lg:flex-wrap gap-8 lg:gap-24">
-                <projects name="FIPUbot" about="Bachler's degree projects" languages="Vue" team="1" githubLink="https://github.com/mvisnjic/FIPUbot" linkName="mvisnjic/FIPUbot" appLink="http://fipubot.letseait.com/"/>
-                <projects name="FIPUbot - backend" about="Bachler's degree projects" languages="Python, RaspberyPI" team="1" githubLink="https://github.com/mvisnjic/FIPUbot-backend" linkName="mvisnjic/FIPUbot" appLink=""/>
-                <projects name="eventFinder - backend" about="backend for eventFinder-frontend" languages="nodeJS" team="2" githubLink="https://github.com/mvisnjic/eventFinder-backend" linkName="mvisnjic/eventFinder-backend" appLink=""/>
-                <projects name="eventFinder - frontend" about="App for search an events" languages="Vue" team="2" githubLink="https://github.com/mvisnjic/FIPUbot" linkName="mvisnjic/FIPUbot" appLink="https://eventfinder.letseait.com/"/>
-                <projects name="orderTech" about="Web app for ordering tehnical inspection for vehicle" languages="Vue, firebase" team="2" githubLink="https://github.com/mvisnjic/orderTech" linkName="mvisnjic/orderTech" appLink="https://ordertech.letseait.com/"/>
-                <projects name="IoT project" about="Easy IoT project for toggle a light and get a temperature from DHT11 sensor." languages="Python, flask" team="1" githubLink="https://github.com/mvisnjic/project_iot" linkName="mvisnjic/project_iot" appLink=""/>
-                <projects name="Age and gender prediction using CNN" about="Age and gender prediction using convolutional neural network" languages="Python, tensorflow" team="1" githubLink="https://github.com/mvisnjic/age-and-gender-prediction-using-CNN" linkName="mvisnjic/age-gender-prediction" appLink=""/>
+                <projects />
             </div>
         </div>
-        <!-- <div id="contact" class="w-full space-y-12 lg:space-y-16">
-            <div class="text-4xl lg:text-7xl text-[#D4AF37]">Contact me</div>
-            <div class="flex lg:justify-start flex-col items-center lg:flex-row lg:flex-wrap gap-9 lg:gap-18">
-                <contact />
-            </div>
-        </div> -->
         
     </div>
 </template>

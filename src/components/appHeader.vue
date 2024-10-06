@@ -3,7 +3,7 @@
     <div class="bg-gradient-to-b bg-[#D4AF37] lg:hidden">
         <div class="p-6 flex flex-row justify-between lg:hidden">
                 <button>
-                    <a href="#" class="font-['Bungee'] text-xl">
+                    <a href="#" class="font-bungee text-xl">
                         mvisnjic
                     </a>
                 </button>    
@@ -62,7 +62,7 @@
         >
         <div class="hidden md:block">
                 <button>
-                    <a href="#" class="font-['Bungee']">
+                    <a href="#" class="font-bungee">
 
                         mvisnjic
                     </a>
@@ -71,26 +71,16 @@
         <div class="lg:bg-[#D4AF37] lg:h-16 lg:w-px lg:self-center" />
             <div class="bg-black h-px lg:hidden mx-10" />
             <div>
-                <button @click="scrollAbout">
+                <button @click="scrollAbout" class="font-shareTech">
                     About
                 </button>    
                 </div>
                 <div>
-                <button @click="scrollProjects">
+                <button @click="scrollProjects" class="font-shareTech">
                     Projects
                 </button>    
                 </div>
-                <!-- <div>
-                <button @click="scrollContact">
-                    Contact me
-                </button>    
-                </div> -->
-                <div>
-                <button @click="scrollFindMe">
-                    Find me
-                </button>    
-                </div>
-            </div>
+            </div>    
 </div>
 </template>
 
@@ -118,11 +108,6 @@ export default {
         },
         scrollContact() {
             var about = document.getElementById("contact")
-            about.scrollIntoView();            
-            this.open = false;
-        },
-        scrollFindMe() {
-            var about = document.getElementById("findMe")
             about.scrollIntoView();            
             this.open = false;
         },

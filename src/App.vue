@@ -22,6 +22,8 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
 #app {
     letter-spacing: 0.05em;
     -webkit-font-smoothing: antialiased;

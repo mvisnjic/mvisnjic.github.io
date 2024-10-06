@@ -1,0 +1,56 @@
+[
+  {
+    "name": "FIPUbot",
+    "about": "Bachler's degree projects",
+    "languages": "Vue.js",
+    "team": 1,
+    "githubLink": "https://github.com/mvisnjic/FIPUbot",
+    "linkName": "mvisnjic/FIPUbot",
+    "appLink": "http://fipubot.letseait.com/"
+  },
+  {
+    "name": "FIPUbot - backend",
+    "about": "Bachler's degree projects",
+    "languages": "Python, RaspberryPI",
+    "team": 1,
+    "githubLink": "https://github.com/mvisnjic/FIPUbot-backend",
+    "linkName": "mvisnjic/FIPUbot-backend",
+    "appLink": ""
+  },
+  {
+    "name": "Age and gender prediction using CNN",
+    "about": "age and gender prediction using convolutional neural network",
+    "languages": "Python, tensorflow",
+    "team": 1,
+    "githubLink": "https://github.com/mvisnjic/age-and-gender-prediction-using-CNN",
+    "linkName": "mvisnjic/age-gender-prediction",
+    "appLink": ""
+  },
+  {
+    "name": "project-iot",
+    "about": "Toggle a lights, get a temperature & humidity from DHT11 sensor.",
+    "languages": "Python, flask, RaspberryPI",
+    "team": 1,
+    "githubLink": "https://github.com/mvisnjic/project_iot",
+    "linkName": "mvisnjic/project_iot",
+    "appLink": ""
+  },
+  {
+    "name": "homeMate",
+    "about": "flask API backend that interacts with a Ollama API",
+    "languages": "Python, flask",
+    "team": 1,
+    "githubLink": "https://github.com/mvisnjic/homeMate/tree/it",
+    "linkName": "mvisnjic/homeMate",
+    "appLink": ""
+  },
+  {
+    "name": "homeMate - frontend",
+    "about": "frontend for interact with homeMate API.",
+    "languages": "Python, flask",
+    "team": 1,
+    "githubLink": "https://github.com/mvisnjic/homeMate-frontend/tree/it",
+    "linkName": "mvisnjic/homeMate",
+    "appLink": ""
+  }
+]
