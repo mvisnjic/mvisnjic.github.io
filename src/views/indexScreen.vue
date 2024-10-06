@@ -16,18 +16,18 @@
                 <div class="text-justify p-2 flex flex-col lg:flex-col gap-4">
                     <p>Currently working on my master's project and seeking full-time or freelance opportunities. I'm constantly learning and refining my skills.</p>
                     <p>During my studies, I gained experience with various programming languages and tools, In my free time, I enjoy working with Python, AI, IoT devices, bash scripts, cronjobs, web server management, custom REST APIs, and web scraping, especially on Linux.</p>
-                    <div id="findMe" class="inline-flex space-x-3">
+                    <div id="findMe" class="flex md:inline-flex space-x-3">
                         <a target="_blank" href="https://github.com/mvisnjic">
-                            <img src="../static/github-icon.svg" alt="github" class="lg:w-10 lg:h-10">
+                            <img src="../static/github-icon.svg" alt="github" class="w-10 h-10 md:w-10 md:h-10">
                         </a>
                         <a target="_blank" href="https://www.linkedin.com/in/matej-vi%C5%A1nji%C4%87-51b273213/">
-                            <img src="../static/linkedin-square-icon.svg" alt="linkedin" class="lg:w-10 lg:h-10">
+                            <img src="../static/linkedin-square-icon.svg" alt="linkedin" class="w-10 h-10 md:w-10 md:h-10">
                         </a>
                         <a target="_blank" href="https://twitter.com/matejvisnjic">
-                            <img src="../static/x-social-media-logo-icon.svg" alt="twitter" class="lg:w-10 lg:h-10">
+                            <img src="../static/x-social-media-logo-icon.svg" alt="twitter" class="w-10 h-10 md:w-10 md:h-10">
                         </a>
                         <a target="_blank" href="https://www.facebook.com/matej.visnjic">
-                            <img src="../static/facebook-messenger-black-icon.svg" alt="facebook" class="lg:w-10 lg:h-10">
+                            <img src="../static/facebook-messenger-black-icon.svg" alt="facebook" class="w-10 h-10 md:w-10 md:h-10">
                         </a>
                     </div>
                     <a href="/files/CV-en.pdf" target="_blank">
